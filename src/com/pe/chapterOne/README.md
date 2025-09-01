@@ -1,52 +1,51 @@
 # Welcome to Java
 
-> 
-> #### Objetivos del capitulo
->
-> - Entender las tecnologias y entornos
->   - Describir las tecnologias y los entornos de Java.
->   - Identificar las caracteristicas principales del lenguaje java.
-> - Crear un simple program
->   - Crear un ejecutable Java con una **main class**.
->   - Compilar y ejecutar un programa Java desde linea de comandos
->   - Crear un **import packages**
-> - Describir y usar Objetos y Classes
->   - Definir las estructura de Java. 
-> 
+#### Objetivos del capítulo
+
+- Entender las tecnologías y entornos:
+  - Describir las tecnologías y los entornos de Java.
+  - Identificar las características principales del lenguaje Java.
+- Crear un programa simple:
+  - Crear un ejecutable Java con una **clase main**.
+  - Compilar y ejecutar un programa Java desde la línea de comandos.
+  - Importar paquetes (**import packages**).
+- Describir y usar Objetos y Clases:
+  - Definir la estructura de Java.
 
 ## **Principal componente**
 
-**JDK** denominado java development kit contiene lo minimo para desarrollar en Java:
-| Tecnología  | Detalle  |
-|:------------- |:---------------:|
-| javac         | Compilador de java para generar los .class a partir de los archivos java.|
-| java         | Esta herramienta crea una maquina virtual y ejecuta el programa.|
-|jar|Empaqueta los archivos en un archivo jar.|
-|javadoc| Comando para generar documentación.|
+El **JDK** (Java Development Kit) contiene lo mínimo necesario para desarrollar en Java:
 
-- Java contiene una lista de API(application programming interfaces) que se puede usar.
+| Tecnología | Detalle |
+|:-----------|:--------|
+| javac      | Compilador de Java para generar los archivos `.class` a partir de los archivos `.java`. |
+| java       | Herramienta que crea una máquina virtual y ejecuta el programa. |
+| jar        | Empaqueta los archivos en un archivo `.jar`. |
+| javadoc    | Comando para generar documentación. |
 
-## **Beneficios de Java**
+- Java contiene una lista de API (Application Programming Interfaces) que se pueden usar.
 
-a. **Lenguaje orientado a objetos:** Todo el código esta definido en clases y estas clases pueden ser instanciadas en objetos. **No es procedimental** (rutinas o métodos pero no clases). Java permite **programación funcional** dentro de una clase, pero la orientada a objeto es la principal.
+### **Beneficios de Java**
 
-b. **Encapsulación:** Tiene modificadores para proteger datos de intento de accesos y modificadores.
+a. **Lenguaje orientado a objetos:** Todo el código está definido en clases y estas clases pueden ser instanciadas en objetos. **No es procedimental** (rutinas o métodos pero no clases). Java permite **programación funcional** dentro de una clase, pero la orientación a objetos es la principal.
 
-c. **Plataforma independiente:** Es un lenguaje interpretado, compila una vez pero no recompila en otro sistemas operativo. "Escribe una vez, ejecuta donde quieras." La portabilida permite facilmente compartir piezas de software.
+b. **Encapsulación:** Tiene modificadores para proteger datos y controlar el acceso.
 
-d. **Robusto:** Una principal ventaja de una manejo optimo de memoria. Java administrar la memoria con su propio garbage collection. 
+c. **Plataforma independiente:** Es un lenguaje interpretado, compila una vez pero no necesita recompilarse en otros sistemas operativos. "Escribe una vez, ejecuta donde quieras." La portabilidad permite compartir fácilmente piezas de software.
 
-e. **Simple:** Java fue instaurada para ser simple y entender C++. 
+d. **Robusto:** Una de sus principales ventajas es el manejo óptimo de memoria. Java administra la memoria con su propio garbage collector.
 
-f. **Seguridad:** Java ejecuta dentro de JVM. 
+e. **Simple:** Java fue diseñado para ser simple y más fácil de entender que C++.
 
-g. **MultiHilos:** Esta diseñado para permitir multiples piezas de codigo ejecutando a la misma vez. Esto hace muchos APIs facilitar las tareas.
+f. **Seguridad:** Java se ejecuta dentro de la JVM.
 
-## Entendiendo las Java Class Estructura
+g. **Multihilos:** Está diseñado para permitir que múltiples piezas de código se ejecuten al mismo tiempo. Muchos APIs facilitan estas tareas.
+
+## Entendiendo la estructura de las clases en Java
+
 - Las clases son los bloques principales del programa.
-    - Describen toda las partes y caracteristicas de alguna cosa.
-- Los objetos son creados apartir de las clases. Es una instancia en tiempo de ejecución(runTime).
-    - Estas son referidas como **instancia**.
-    - Este es una sola representación de una clase. Representan un estado del programa.
-- Una referencia: apunta al objeto creado.
-
+    - Describen todas las partes y características de algún objeto o concepto.
+- Los objetos son creados a partir de las clases. Son instancias en tiempo de ejecución (*runtime*).
+    - Se les conoce como **instancias**.
+    - Cada objeto es una representación única de una clase y representa un estado del programa.
+- Una referencia es una variable que apunta al objeto creado.
